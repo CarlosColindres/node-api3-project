@@ -1,5 +1,5 @@
 const server = require('./server')
 
-server.listen('5000' , () => {
+server.listen(process.env.PORT , () => {
     console.log('listening on port 5000')
 })
